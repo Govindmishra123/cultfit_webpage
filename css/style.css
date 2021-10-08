@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-color: rgba(0, 0, 0, 0);
+}
+header{
+    width: 100%;
+    height: 64px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+#navbar img{
+    width: 110px;
+    height: 64px;
+    /* padding: 0px 24px; */
+    vertical-align: middle;
+    margin-left: 24px;
+    cursor: pointer;
+    margin-right: 230px;
+}
+
+#navbar li{
+    display: inline-block;
+    margin-right: 70px;
+    
+    /* padding: 0 15px; */
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: BrandonTextWeb-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    color: #404040;
+    font-size: 14px;
+}
+
+section img{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.part1{
+    height: 300px;
+}
+
+.part1 h2{
+    margin-top: 72px;
+    
+    margin-left: 70px;
+    font-size: 23px;
+    color: rgb(34, 32, 32);
+}
+
+.part1 img{
+    width: 251px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    /* padding: 50px 100px; */
+    background: black;
+}
+
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+
+}
+
+.aboutus img{
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.aboutus p{
+    margin-top: -10px;
+    color: rgb(143, 140, 140);
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.quicklinks ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 30px;
+
+}
+
+.quicklinks li{
+    padding-bottom: 7px;
+    padding-top: 7px;
+    /* color: whitesmoke; */
+}
+
+.quicklinks a{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.download img{
+    width: 150px;
+    border-radius: 5px;
+    align-items: flex-end;
+    justify-content: right;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
